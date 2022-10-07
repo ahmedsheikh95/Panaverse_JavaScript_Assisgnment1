@@ -1,0 +1,10 @@
+var mountains = ["K2", "Mount Everst", "Nanga Parbat", "Fairy Medows"];
+console.log(mountains);
+var rivers = ["Indus", "Jehlum", "Chanab"];
+console.log(rivers);
+var Countries = ["Pakistan", "England", "USA", "France"];
+console.log(Countries);
+var cities = ["Rawalpindi", "Islamabad", "Karachi", "Lahore"];
+console.log(cities);
+var languages = ["Urdu", "English", "Spanish", "Pashto"];
+console.log(languages);
