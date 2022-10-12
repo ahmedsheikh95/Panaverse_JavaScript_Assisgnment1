@@ -1,11 +1,24 @@
- //Q27 Alien Color#3
- alien_color = 'red'
 
- if(alien_color == 'green') {
-     console.log("You just earned 5 points!");
+
+ //var alien_color = "prompt("Add Colors i.e green | yellow | red")";
+
+
+ var alien_color = 'green';
+ if(alien_color = 'green') {
+     console.log("You just earned 5 points!")
  
- elseif
-     console.log("You just earned 10 points!");
+elseif (alien_color = 'yellow')  
+   console.log("You just earned 10 points!")
+ 
+
+elseif (alien_color = 'red')
+     console.log("You just earned 15 points!")
+     
+
 }
  else
-     console.log("You just earned 15 points!");
+    console.log("You got nothing!"); 
+    
+
+    
+ 
