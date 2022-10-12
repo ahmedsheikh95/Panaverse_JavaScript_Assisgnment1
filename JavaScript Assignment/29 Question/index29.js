@@ -1,7 +1,7 @@
 var favorite_fruits = ['blueberries', 'salmonberries', 'peaches'];
 
 //favorite_fruits= console.log("Add you fav fruits i.e Banana, Apple, Peaches, Kiwis"+prompt());
-favorite_fruits = prompt("Add you fav fruits i.e Banana, Apple, Peaches, Kiwis");
+favorite_fruits = prompt("Add you fav fruits i.e Banana, Apple, Peaches, Kiwis").toLowerCase();
 if (favorite_fruits == 'banana')
     {
         console.log("You really like banana!");
