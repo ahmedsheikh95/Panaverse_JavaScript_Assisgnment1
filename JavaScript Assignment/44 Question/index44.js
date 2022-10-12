@@ -1,13 +1,9 @@
 function make_sandwich(items){
-    //items = ['roast beef', 'cheddar cheese', 'lettuce', 'honey dijon','turkey', 'apple slices', 'honey mustard','peanut butter', 'strawberry jam'];
-    console.log("I'll make you a great sandwich:");
-    //for(i=0;i<items.length; i++){
-       // console.log("Adding " + items + " to your sandwich");
-       res = 'Adding ' + items + ' to your sandwich';
-       console.log(res);
-        console.log("Your sandwich is ready");
+    console.log("I can make a great 3 kind of sandwich for you:");
+       result = "Adding " + items + " to your sandwich.";
+       console.log(result);
     }
-    make_sandwich(items =['roast beef', 'cheddar cheese', 'lettuce', 'honey dijon']);
+    make_sandwich(items =['roast beef', 'cheddar cheese', 'lettuce', 'honey']);
     make_sandwich(items =['turkey', 'apple slices', 'honey mustard']);
     make_sandwich(items =['peanut butter', 'strawberry jam']);
-    
+    console.log("Your sandwiches are ready here! Enjoy your meal.");
